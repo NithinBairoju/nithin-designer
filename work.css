@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+/* scrollbar css  */
+/* width */
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px rgb(112, 112, 112);
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(102, 101, 101);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0f0f0f;
+}
+
+
+
+.container {
+    margin: 0px 20px;
+}
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background-color: #EFF5F5;
+    position: relative;
+}
+
+h1 {
+    color: #439A97;
+}
+
+h2 {
+    color: #439A97;
+}
+
+h3 {
+    color: #439A97;
+}
+
+/*-----nav section begane----*/
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.logo img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.navlinks {
+    padding-top: 10px;
+}
+
+.navlinks ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.navlinks ul li a {
+    padding: 6px 16px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #439A97;
+}
+
+.navlinks ul li a:hover {
+    color: black;
+}
+
+.navlinks ul li .active {
+    color: black;
+}
+
+
+/*---hero landing page-----*/
+
+.herosection {
+    font-family: 'Dynalight', cursive;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.herosection h1 {
+    font-family: 'Dynalight', cursive;
+    font-weight: lighter;
+    font-size: 5.5rem;
+    color: #439A97;
+}
+
+
+.herosection p {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    color: #439A97;
+}
+
+
+
+/*------hello section------*/
+
+#hello {
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.hellosec {
+    text-align: center;
+}
+
+.hellosec article {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.hellosec img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hellosec h2 {
+    margin: 15px 0px;
+    color: #439A97;
+}
+
+.hellosec p {
+    font-size: 1.2rem;
+}
+
+#hello hr {
+    margin: 50px auto;
+    width: 5%;
+    border: none;
+    border-top: dotted;
+}
+
+/* what i can do section */
+
+#whatican {
+    margin-top: 100px;
+    background-color: #7dcc93;
+    padding: 10px 0px;
+    width: 100%;
+    height: 750px;
+}
+
+#whatican2 {
+    margin: 00px 0px;
+    background-color: #f76160;
+    padding: 10px 0px;
+    width: 100%;
+    height: 800px;
+}
+
+#whatican3 {
+    margin: 00px 0px;
+    background-color: #31355b;
+    padding: 10px 0px;
+    width: 100%;
+    height: 800px;
+}
+
+
+/* section coding */
+
+.candosec {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 60%;
+}
+
+.candosec figure img {
+    width: 100%;
+    height: 60%;
+}
+
+.candosec article {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.candosec article h1 {
+    font-size: 1.9rem;
+    color: white;
+}
+
+.candosec article h3 {
+    padding-top: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.candosec article p {
+    padding-top: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.candosec article button {
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.candosec article button:hover {
+    background: black;
+}
+
+/* i acn help section */
+#icanhelp {
+    margin: 0 20px;
+}
+
+.message {
+    text-align: center;
+}
+
+.message article {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.message article h1 {
+    font-size: 2.9rem;
+    font-weight: lighter;
+}
+
+.message article h3 {
+    margin-top: 10px;
+    font-size: 1.7rem;
+}
+
+.message article p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+}
+
+.message article button {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    width: 40%;
+    color: #439A97;
+    background-color: rgba(145, 231, 191, 0.637);
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message article button:hover {
+    color: black;
+}
+
+/* footersection */
+.footersection {
+    width: 100%;
+    height: 150px;
+    background-color: #EFF5F5;
+    margin-top: 30px;
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer .footerlinks {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer .footerlinks p {
+    padding: 0px 50px;
+}
+
+.footer .footerlinks p a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #439A97;
+}
+
+.footer .footerlinks p a:hover {
+    color: black;
+}

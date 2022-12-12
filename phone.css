@@ -1,0 +1,56 @@
+@media all and (max-width: 960px) {
+    #whatican {
+        height: 650px;
+    }
+
+
+
+    #whatican2 {
+        text-align: center;
+        height: 650px;
+    }
+
+    #whatican3 {
+        text-align: center;
+        height: 650px;
+    }
+
+    /* .candosec {
+            max-width: 100%;
+        } */
+
+
+    .footer .footerlinks p {
+        padding: 0px 30px;
+    }
+}
+
+
+@media all and (max-width: 700px) {
+    .candosec article {
+
+        max-width: 100%;
+    }
+
+    .candosec article p {
+
+        max-width: 100%;
+    }
+
+    .secstart {
+        width: 100%;
+    }
+
+
+}
+
+
+@media all and (max-width: 480px) {
+    .footer .footerlinks p {
+        padding: 0px 10px;
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+    /* put your css styles in here */
+}
